@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lovely Dog</title>
+    <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1 style="text-align:center">Mr. Genta!</h1>
+
+<div class="gallery">
+    <div class="gallery">
+      <figure>
+        <img src="{% static 'images/genta/genta2.jpg' %}">
+        <figcaption>Sleepy Look</figcaption>
+      </figure>
+      <figure>
+        <img src="{% static 'images/genta/genta7.jpg' %}">
+        <figcaption>Firm Look</figcaption>
+      </figure>
+      <figure>
+        <img src="{% static 'images/genta/genta8.jpg' %}">
+        <figcaption>Brave Look</figcaption>
+      </figure>
+      <figure>
+        <img src="{% static 'images/genta/genta5.jpg' %}">
+        <figcaption>Confused Look</figcaption>
+      </figure>
+      <figure>
+        <img src="{% static 'images/genta/genta6.jpg' %}">
+        <figcaption>Sad Look</figcaption>
+      </figure>
+    </div>
+</div>
+
+</body>
+</html>
